@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -16,11 +18,11 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
+	/* margin: 0;
+	padding: 0; */
 	/* border: 0; */
 	font-size: 100%;
-	font: inherit;
+	/* font: inherit; */
 	vertical-align: baseline;
 }
 
@@ -50,6 +52,41 @@ table {
 
 
 * {
-    border:1px solid black;
+    border: 1px solid black;
+    font-family: 'Roboto Mono', monospace;
 }
 
+.navbox {
+    widows: 100%;
+    text-align: center;
+    
+}
+
+.headerbox {
+    width: 80%;
+    margin: auto;
+}
+
+.top-logo {
+    display:inline-block;
+}
+
+.top-logo img {
+    height: 200px;
+    border-radius: 50%;
+}
+
+.top-text {
+    display:inline-block;
+    font-family: 'Chelsea Market', cursive;
+    
+}
+
+
+.intro {
+    width: 90%;
+    text-align: center;
+    background-color:#DDB9A3;
+    color:white;
+    margin:0 auto;
+}
