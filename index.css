@@ -51,18 +51,42 @@ table {
 
 
 
-* {
+/* * {
     border: 1px solid black;
+    
+} */
+
+body{
     font-family: 'Roboto Mono', monospace;
 }
+.nav-box {
+    width: 100%;
+    height: 40px;
+    margin-top:20px;
+    text-align: center;  
+}
 
-.navbox {
-    widows: 100%;
-    text-align: center;
+.nav-box a {
+    margin: 80px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
     
 }
 
-.headerbox {
+.b1 {
+    background-color: #FF764E;
+}
+.b2 {
+    background-color: #5ED3EB;
+}
+.b3 {
+    background-color: #FFCD69;
+}
+
+
+.header-box {
     width: 80%;
     margin: auto;
 }
@@ -78,15 +102,70 @@ table {
 
 .top-text {
     display:inline-block;
+    text-align: center;    
+}
+
+h1 {
+    font-size:46px;
+    padding-bottom:20px;
     font-family: 'Chelsea Market', cursive;
-    
+}
+
+h3 {
+    font-size: 14px;
+    padding-bottom:20px;
+
 }
 
 
 .intro {
     width: 90%;
     text-align: center;
+    font-size: 12px;
     background-color:#DDB9A3;
     color:white;
-    margin:0 auto;
+    margin:20px auto;
+    padding:10px;
 }
+
+.logo-textbox{
+    width:33%;
+    margin:20px auto;
+}
+
+.text-logos {
+    width:25%;
+    margin-left:38%;
+}
+
+.logo-text {
+font-size:12px;
+width: 50%;
+margin: 0 auto;
+text-align: center;
+}
+
+.footer-image {
+    width: 100%;
+    height:20vh;
+    overflow:hidden;
+    
+}
+
+.footer-box {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    background-color: #F9E7DC;
+    padding-top:35px;
+    padding-bottom:20px;
+}
+
+.footer-box a {
+    margin: 80px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
